@@ -6,14 +6,14 @@ var mouseIMG1 , mouseIMG2 , mouseIMG3;
 
 function preload() {
     //load the images here
-   bgIMG = loadImage("images/garden.png");
+   bgIMG = loadImage("garden.png");
 
-   catIMG1 = loadAnimation("images/tomOne.png");
-   catIMG2 = loadAnimation("images/tomTwo.png","images/tomThree.png");
-   catIMG3 = loadAnimation("images/tomFour.png");
-   mouseIMG1 = loadAnimation("images/jerryOne.png");
-   mouseIMG2 = loadAnimation("images/jerryTwo.png","images/jerryThree.png");
-   mouseIMG3 = loadAnimation("images/jerryFour.png")
+   catIMG1 = loadAnimation("tomOne.png");
+   catIMG2 = loadAnimation("tomTwo.png","tomThree.png");
+   catIMG3 = loadAnimation("tomFour.png");
+   mouseIMG1 = loadAnimation("jerryOne.png");
+   mouseIMG2 = loadAnimation("jerryTwo.png","jerryThree.png");
+   mouseIMG3 = loadAnimation("jerryFour.png")
 
 
 
